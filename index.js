@@ -7,7 +7,6 @@ const app = express();
 
 app.use(cors());
 app.use(bodyParser.json());
-<h1> Teste </h1>
 console.log("port", process.env.PORTT);
 console.log("senha", process.env.password);
 // const Pool = require("pg").Pool;
