@@ -7,8 +7,8 @@ const app = express();
 
 app.use(cors());
 app.use(bodyParser.json());
-console.log("port", process.env.PORTT);
-console.log("senha", process.env.password);
+console.log("port", process.env.PORT);
+console.log("senha", process.env.PGPASSWORD);
 // const Pool = require("pg").Pool;
 // const pool = new Pool({
 //     user: "ffvkynvtaqjhow",
